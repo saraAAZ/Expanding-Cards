@@ -12,6 +12,7 @@ body{
 .image-container{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction:row;
     width: 90vw;
     height: 400px;
