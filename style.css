@@ -50,8 +50,10 @@ body {
 }
 .content{
     position: absolute;
-    font-size: 40px;
+    font-size: 20px;
     color: azure;
+    bottom:2%;
+    left: 5%;
 }
 .display-none{
     display: none;

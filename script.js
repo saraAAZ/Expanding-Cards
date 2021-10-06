@@ -8,13 +8,15 @@ panels.forEach((panel) => {
       }else{
         removeActiveClasses();
         panel.classList.add("active");
+        panel.children[0].style.display="block";
+
       }
-   
   });
 });
 
 const removeActiveClasses = () => {
   panels.forEach((panel) => {
     panel.classList.remove("active");
+    panel.children[0].style.display="none";
   });
 };
